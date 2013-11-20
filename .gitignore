@@ -1,0 +1,13 @@
+web
+vendor
+src
+bin
+app
+UPGRADE-2.3.md
+UPGRADE-2.2.md
+UPGRADE.md
+README.md
+LICENSE
+composer.phar
+composer.lock
+composer.json

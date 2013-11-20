@@ -1,0 +1,15 @@
+vendor/*
+app/cache/*
+app/logs/*
+web/bundles/*
+web/css/*
+web/js/*
+web/uploads/*
+web/facturas/*
+web/IventiaTemplates/*
+web/feed*
+web/cupones/*
+app/phpunit.xml.dist
+app/config/parameters.yml
+omposer.phar
+composer.lock

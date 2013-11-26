@@ -41,7 +41,7 @@ class Validators
         if (false === strpos($namespace, '\\')) {
             $msg = array();
             $msg[] = sprintf('The namespace must contain a vendor namespace (e.g. "VendorName\%s" instead of simply "%s").', $namespace, $namespace);
-            $msg[] = 'If you\'ve specified a vendor namespace, did you forget to surround it with quotes (init:bundle "Acme\BlogBundle")?';
+            $msg[] = 'If you\'ve specified a vendor namespace, did you forget to surround it with quotes (init:bundle "labormanager\BlogBundle")?';
 
             throw new \InvalidArgumentException(implode("\n\n", $msg));
         }

@@ -26,10 +26,10 @@ namespace Symfony\Component\Security\Tests\Acl\Domain
         // Test that constructor never changes passed type, even with proxies
         public function testConstructorWithProxy()
         {
-            $id = new ObjectIdentity('fooid', 'Acme\DemoBundle\Proxy\__CG__\Symfony\Component\Security\Tests\Acl\Domain\TestDomainObject');
+            $id = new ObjectIdentity('fooid', 'labormanager\DemoBundle\Proxy\__CG__\Symfony\Component\Security\Tests\Acl\Domain\TestDomainObject');
 
             $this->assertEquals('fooid', $id->getIdentifier());
-            $this->assertEquals('Acme\DemoBundle\Proxy\__CG__\Symfony\Component\Security\Tests\Acl\Domain\TestDomainObject', $id->getType());
+            $this->assertEquals('labormanager\DemoBundle\Proxy\__CG__\Symfony\Component\Security\Tests\Acl\Domain\TestDomainObject', $id->getType());
         }
 
         public function testFromDomainObjectPrefersInterfaceOverGetId()

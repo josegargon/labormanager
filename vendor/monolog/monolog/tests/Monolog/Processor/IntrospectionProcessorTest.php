@@ -33,7 +33,7 @@ class IntrospectionProcessorTest extends TestCase
         list($record) = $handler->getRecords();
         $this->assertEquals(__FILE__, $record['extra']['file']);
         $this->assertEquals(58, $record['extra']['line']);
-        $this->assertEquals('Acme\Tester', $record['extra']['class']);
+        $this->assertEquals('labormanager\Tester', $record['extra']['class']);
         $this->assertEquals('test', $record['extra']['function']);
     }
 
@@ -45,7 +45,7 @@ class IntrospectionProcessorTest extends TestCase
         $this->assertEquals(__FILE__, $record['extra']['file']);
         $this->assertEquals(64, $record['extra']['line']);
         $this->assertEquals(null, $record['extra']['class']);
-        $this->assertEquals('Acme\tester', $record['extra']['function']);
+        $this->assertEquals('labormanager\tester', $record['extra']['function']);
     }
 }
 

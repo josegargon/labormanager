@@ -39,7 +39,7 @@ class NestedTreeRootRepositoryTest extends BaseTestCaseORM
 
         $food = $repo->findOneByTitle('Food');
         $acme = new RootCategory;
-        $acme->setTitle('Acme');
+        $acme->setTitle('labormanager');
 
         $food->setParent($acme);
 

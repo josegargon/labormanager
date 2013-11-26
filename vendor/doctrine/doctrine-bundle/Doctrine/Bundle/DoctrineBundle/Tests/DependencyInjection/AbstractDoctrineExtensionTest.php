@@ -304,7 +304,7 @@ abstract class AbstractDoctrineExtensionTest extends \PHPUnit_Framework_TestCase
         ));
 
         $configDef = $container->getDefinition('doctrine.orm.default_configuration');
-        $this->assertDICDefinitionMethodCallOnce($configDef, 'setDefaultRepositoryClassName', array('Acme\Doctrine\Repository'));
+        $this->assertDICDefinitionMethodCallOnce($configDef, 'setDefaultRepositoryClassName', array('labormanager\Doctrine\Repository'));
     }
 
     public function testLoadMultipleConnections()

@@ -43,7 +43,7 @@ entity inside a bundle:
 <info>php app/console doctrine:generate:entity --entity=AcmeBlogBundle:Blog/Post</info>
 
 The above command would initialize a new entity in the following entity
-namespace <info>Acme\BlogBundle\Entity\Blog\Post</info>.
+namespace <info>labormanager\BlogBundle\Entity\Blog\Post</info>.
 
 You can also optionally specify the fields you want to generate in the new
 entity:

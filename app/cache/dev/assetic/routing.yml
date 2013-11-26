@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: /home/josema/Proyectos/labormanager/Symfony/app/config/routing_dev.yml
+    resource: /home/josema/Proyectos/labormanager/app/config/routing_dev.yml

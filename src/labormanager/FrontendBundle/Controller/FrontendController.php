@@ -4,7 +4,7 @@ namespace labormanager\FrontendBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DefaultController extends Controller
+class FrontendController extends Controller
 {
     public function indexAction()
     {

@@ -139,7 +139,7 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 return $this->redirect($pathinfo.'/', 'frontend_homepage');
             }
 
-            return array (  '_controller' => 'labormanager\\FrontendBundle\\Controller\\DefaultController::indexAction',  '_route' => 'frontend_homepage',);
+            return array (  '_controller' => 'labormanager\\FrontendBundle\\Controller\\FrontendController::indexAction',  '_route' => 'frontend_homepage',);
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
